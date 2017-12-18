@@ -48,11 +48,24 @@ The Annotation Guideline is based on TAC and ACE guidelines.
 
 It can be found in the following folder: [Guideline](https://github.com/modultechnology/storylens/tree/master/guideline).
 
+## GOLD
+
+The [Gold](https://github.com/modultechnology/storylens/tree/master/gold) folder contains the judged results. 
+
+The links provided are based on the current LIVE DBpedia (September - December 2017) version that would correspond to DBpedia 2017-10 or 2018-04, therefore link changes can occur.
+
+In case you find one of the following error types please feel free to contact us in order to update it:
+* New entities that were not annotated
+* Different possibilities to annotate various entities
+* New links (where no entitiy was found before or where NIL entities currently exist)
+
 ## LENSES
-Several lenses are provided
+The [Lenses](https://github.com/modultechnology/storylens/tree/master/lenses) folder contains some exmple lenses.
+
+We currently provide:
 * Long - longest match for any entity
 * Embedded - includes embedded entities
-* DBpediaLens - lens related to a certain DBpedia version (e.g., 2016-10 or 2016-04)
+* (DBpediaLens - lens related to a certain DBpedia version (e.g., 2016-10 or 2016-04) - currently in preparation)
 
 For future versions of the corpora we will also include:
 * events - arguably only named events (EVENT) such as Grenfell Tower Disaster
