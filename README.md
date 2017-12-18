@@ -42,6 +42,12 @@ The annotations taken into account when building the gold standard files are the
 
 The ontology can be found here: [Recognyze Ontology](https://github.com/modultechnology/storylens/blob/master/ontology/recognyze).
 
+## ANNOTATION GUIDELINE
+
+The Annotation Guideline is based on TAC and ACE guidelines.
+
+It can be found in the following folder: [Guideline](https://github.com/modultechnology/storylens/tree/master/guideline).
+
 ## LENSES
 Several lenses are provided
 * Long - longest match for any entity
