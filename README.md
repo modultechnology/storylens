@@ -71,6 +71,15 @@ For future versions of the corpora we will also include:
 * events - arguably only named events (EVENT) such as Grenfell Tower Disaster
 * stories - the narratives focused around big events
 
+## UPDATES
+
+Due to the fact that the publication associated with this dataset is still under review and the DBpedia LIVE version used during annotations is not available as a dump, we reserve the right to change small parts of this dataset in the near future.
+
+Example updates might include:
+* New entities - typically entities detected during evaluations or reported by third-party users
+* New Links - if available
+* New Lenses - if needed for a particular use case
+
 ## OTHER FORMATS
 
 If there is a need to use this corpora in other formats than the ones provided by us, please contact us.
