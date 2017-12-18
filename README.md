@@ -1,27 +1,18 @@
-# storylens
+# STORYLENS
 
 The multistream corpora (StoryLens) created for Recognyze eval in InVID project.
 
-It contains 3 types of streams: 
+## A MULTISTREAM CORPORA
+
+A multistream corpora contains content from different types of streams. 
+
+The current corpora contains annotations based on the following stream types: 
 
 * news - 100 documents
 * twitter - 200 documents
 * youtube - 100 documents
 
 We might consider adding more documents in time.
-
-The focus is on location entities, therefore all types of conflicts between locations
-and other types of entities are included.
-
-The annotations taken into account when building the gold standard files are the following:
-* location (GPE, LOC, FAC) entities
-* person (PER) and organization (ORG) entities
-* products (PROD) and services 
-* misc (MISC) - any other type of entity
-
-For some versions of the corpora (lenses) we also include:
-* events - arguably only named events (EVENT) such as Grenfell Tower Disaster
-* stories - the narratives focused around big events
 
 ## DOCUMENTS
 The YouTube, Twitter and newsmedia documents are not provided with this corpus due to copyright reasons.
@@ -33,5 +24,44 @@ The original documents can be retrieved by crawling their URLs. In order to prov
 
 The output for the Twitter partition of the corpora only contains the annotations due to copyright restrictions, but the actual texts of the tweets can be downloaded by ids using free scripts\footnote{Tweet Downloader by ID example: https://gist.github.com/giacbrd/b996cfe2f1d24752f23bd119fdd678f2}.
 
+## ONTOLOGY
 
-Official version will be published on GitHub without the original documents due to copyright reasons.
+The focus is on location entities, therefore all types of conflicts between locations
+and other types of entities are included.
+
+The annotations taken into account when building the gold standard files are the following:
+* Natural Location (LOC) - e.g., Danube River, Alps
+* Geo-Political Entity (GPE) - e.g., Vienna, Austria
+* Facility (FAC) - e.g., Brooklyn Bridge, Interstate 66
+* Person (PER) - e.g., Prince Charles, Donald Trump
+* Organization (ORG) - e.g., Google, Apple
+* Product (PROD) - e.g., IPhone, Samsung Galaxy 8
+* Work (WORK) - e.g., Mona Lisa, Star Trek
+* Event (EVENT) - e.g., 9/11, Grenfell Tower fire
+* misc (MISC) - any other type of entity
+
+The ontology can be found here: [Recognyze Ontology](https://github.com/modultechnology/storylens/blob/master/ontology/recognyze).
+
+## LENSES
+Several lenses are provided
+* Long - longest match for any entity
+* Embedded - includes embedded entities
+* DBpediaLens - lens related to a certain DBpedia version (e.g., 2016-10 or 2016-04)
+
+For future versions of the corpora we will also include:
+* events - arguably only named events (EVENT) such as Grenfell Tower Disaster
+* stories - the narratives focused around big events
+
+## OTHER FORMATS
+
+If there is a need to use this corpora in other formats than the ones provided by us, please contact us.
+
+## NOTES
+Official version is published on GitHub without the original documents due to copyright reasons.
+
+If you plan to use this corpora in an evaluation suite please contact us.
+
+If you discover various errors in this dataset (e.g., missing annotation, wrong types, etc,) feel free to contact us and we will update it.
+
+## COPYRIGHT
+Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
