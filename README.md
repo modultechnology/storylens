@@ -2,6 +2,22 @@
 
 The multistream corpora (StoryLens) created for Recognyze eval in InVID project.
 
+## CITATION
+
+If you use this corpora in your evaluations, please cite the following paper (BibTeX):
+
+```tex
+   @inproceedings{brasoveanu2018wims,
+        author = {Adrian M. P. Bra{\c{s}}oveanu and Lyndon J.B. Nixon and Albert Weichselbraun},
+        title  = {StoryLens: A Multiple Views Corpus for Location and Event Detection},
+        booktitle = {Proceedings of the 8th International Conference on Web Intelligence, Mining and Semantics (WIMS 2018)},
+        address = {Novi Sad, Serbia},
+        publisher = {ACM},
+        year   = {2018},
+        date   = {25-27 June 2018}
+   }
+```
+
 ## A MULTISTREAM CORPORA
 
 A multistream corpora contains content from different types of streams. 
