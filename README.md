@@ -96,6 +96,10 @@ Example updates might include:
 * New Links - if available
 * New Lenses - if needed for a particular use case
 
+## TWEET DOWNLOADER
+
+In order to download the full tweets please use any tweet downloader, for example [Tweet Downloader]( https://gist.github.com/giacbrd/b996cfe2f1d24752f23bd119fdd678f2)
+
 ## OTHER FORMATS
 
 If there is a need to use this corpora in other formats than the ones provided by us, please contact us.
